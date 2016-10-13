@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham Light Regular.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="Lab" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="ug5-D9-tuZ" id="E9y-bx-IAw"/>
+                <outlet property="firstNameTextField" destination="jhJ-Vx-Dce" id="Qtm-aM-pB7"/>
+                <outlet property="lastNameTextField" destination="XTM-Zz-3GW" id="VtX-86-XuD"/>
+                <outlet property="mobileNoTextField" destination="oq5-na-cwh" id="d6x-0Z-K3k"/>
+                <outlet property="passwordTextField" destination="CNL-Ji-dUL" id="hup-gb-cBu"/>
+                <outlet property="reEnterPasswordTextField" destination="rDe-Gq-Gvf" id="Wxc-Wc-i3B"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFJ-5K-tnB">
+                    <rect key="frame" x="100" y="262" width="400" height="236"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jhJ-Vx-Dce">
+                            <rect key="frame" x="0.0" y="8" width="400" height="30"/>
+                            <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XTM-Zz-3GW">
+                            <rect key="frame" x="0.0" y="46" width="400" height="30"/>
+                            <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-na-cwh">
+                            <rect key="frame" x="0.0" y="84" width="400" height="30"/>
+                            <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ug5-D9-tuZ">
+                            <rect key="frame" x="0.0" y="122" width="400" height="30"/>
+                            <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CNL-Ji-dUL">
+                            <rect key="frame" x="0.0" y="160" width="400" height="30"/>
+                            <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rDe-Gq-Gvf">
+                            <rect key="frame" x="0.0" y="198" width="400" height="30"/>
+                            <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="jhJ-Vx-Dce" firstAttribute="leading" secondItem="RFJ-5K-tnB" secondAttribute="leading" id="08C-wa-THf"/>
+                        <constraint firstItem="XTM-Zz-3GW" firstAttribute="top" secondItem="jhJ-Vx-Dce" secondAttribute="bottom" constant="8" id="18u-lM-N29"/>
+                        <constraint firstItem="ug5-D9-tuZ" firstAttribute="top" secondItem="oq5-na-cwh" secondAttribute="bottom" constant="8" id="5Y1-kV-RNZ"/>
+                        <constraint firstAttribute="trailing" secondItem="jhJ-Vx-Dce" secondAttribute="trailing" id="6Ts-gV-YEA"/>
+                        <constraint firstItem="ug5-D9-tuZ" firstAttribute="leading" secondItem="RFJ-5K-tnB" secondAttribute="leading" id="8eM-6y-Dmq"/>
+                        <constraint firstItem="CNL-Ji-dUL" firstAttribute="leading" secondItem="RFJ-5K-tnB" secondAttribute="leading" id="CPv-Fs-oE2"/>
+                        <constraint firstAttribute="bottom" secondItem="rDe-Gq-Gvf" secondAttribute="bottom" constant="8" id="D8G-R7-sA1"/>
+                        <constraint firstItem="oq5-na-cwh" firstAttribute="leading" secondItem="RFJ-5K-tnB" secondAttribute="leading" id="E8E-xF-deT"/>
+                        <constraint firstItem="rDe-Gq-Gvf" firstAttribute="top" secondItem="CNL-Ji-dUL" secondAttribute="bottom" constant="8" id="NP7-Oa-Qdn"/>
+                        <constraint firstItem="oq5-na-cwh" firstAttribute="top" secondItem="XTM-Zz-3GW" secondAttribute="bottom" constant="8" id="NqQ-OU-3r2"/>
+                        <constraint firstItem="rDe-Gq-Gvf" firstAttribute="leading" secondItem="RFJ-5K-tnB" secondAttribute="leading" id="Rwv-xX-hjb"/>
+                        <constraint firstAttribute="trailing" secondItem="ug5-D9-tuZ" secondAttribute="trailing" id="S4U-b3-Nmd"/>
+                        <constraint firstItem="XTM-Zz-3GW" firstAttribute="leading" secondItem="RFJ-5K-tnB" secondAttribute="leading" id="Ulv-Kj-tMO"/>
+                        <constraint firstAttribute="trailing" secondItem="rDe-Gq-Gvf" secondAttribute="trailing" id="dji-Su-flK"/>
+                        <constraint firstItem="CNL-Ji-dUL" firstAttribute="top" secondItem="ug5-D9-tuZ" secondAttribute="bottom" constant="8" id="eIA-Ia-xmU"/>
+                        <constraint firstAttribute="trailing" secondItem="oq5-na-cwh" secondAttribute="trailing" id="kz4-wQ-UPW"/>
+                        <constraint firstAttribute="trailing" secondItem="CNL-Ji-dUL" secondAttribute="trailing" id="mRV-HV-DJK"/>
+                        <constraint firstItem="jhJ-Vx-Dce" firstAttribute="top" secondItem="RFJ-5K-tnB" secondAttribute="top" constant="8" id="pZk-tj-Nc4"/>
+                        <constraint firstAttribute="trailing" secondItem="XTM-Zz-3GW" secondAttribute="trailing" id="sqE-VG-fuW"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbb-hh-TXC">
+                    <rect key="frame" x="100" y="522" width="400" height="35"/>
+                    <color key="backgroundColor" red="0.0" green="0.58823529411764708" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Dce-Ha-sV2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                    <state key="normal" title="Sign up">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="signupButtonTapped:" destination="-1" eventType="touchUpInside" id="2SF-CO-DMu"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Waf-hk-IKp">
+                    <rect key="frame" x="0.0" y="64" width="600" height="190"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Qpz-zZ-Fkq">
+                            <rect key="frame" x="150" y="45" width="300" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="CZ6-aS-0l9"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Qpz-zZ-Fkq" firstAttribute="centerY" secondItem="Waf-hk-IKp" secondAttribute="centerY" id="reW-71-enW"/>
+                        <constraint firstItem="Qpz-zZ-Fkq" firstAttribute="centerX" secondItem="Waf-hk-IKp" secondAttribute="centerX" id="vWi-7T-dfw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RFJ-5K-tnB" firstAttribute="top" secondItem="Waf-hk-IKp" secondAttribute="bottom" constant="8" id="6Mq-iZ-1qe"/>
+                <constraint firstItem="Waf-hk-IKp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="9Av-p2-FDC"/>
+                <constraint firstItem="RFJ-5K-tnB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="80" id="KWg-ew-EMe"/>
+                <constraint firstAttribute="trailing" secondItem="Waf-hk-IKp" secondAttribute="trailing" id="Rn8-k7-O8d"/>
+                <constraint firstItem="Waf-hk-IKp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZAS-B5-ahu"/>
+                <constraint firstItem="RFJ-5K-tnB" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="4:6" id="bkb-J0-W5f"/>
+                <constraint firstItem="bbb-hh-TXC" firstAttribute="width" secondItem="RFJ-5K-tnB" secondAttribute="width" id="gvr-3I-Gcu"/>
+                <constraint firstItem="bbb-hh-TXC" firstAttribute="top" secondItem="RFJ-5K-tnB" secondAttribute="bottom" constant="24" id="hy3-vY-tmX"/>
+                <constraint firstItem="Qpz-zZ-Fkq" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="3:6" id="kWK-GK-ADm"/>
+                <constraint firstItem="RFJ-5K-tnB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nJq-07-88i"/>
+                <constraint firstItem="bbb-hh-TXC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xu3-rT-GtK"/>
+                <constraint firstItem="Waf-hk-IKp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zho-Gs-oXz"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="app_icon" width="547" height="148"/>
+    </resources>
+</document>

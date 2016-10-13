@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (3.2.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DBProfileViewController (2.0.2):
+    - FXBlurView (~> 1.6.4)
+  - FXBlurView (1.6.4)
+  - HanekeSwift (0.10.1)
+  - IQKeyboardManagerSwift (4.0.0)
+  - SCLAlertView (0.5.6)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.2.1)
+  - ChameleonFramework/Swift
+  - DBProfileViewController (~> 2.0)
+  - HanekeSwift
+  - IQKeyboardManagerSwift (= 4.0.0)
+  - SCLAlertView
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DBProfileViewController: a2da39408911b0a732ac04512e999468d39f0802
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+  IQKeyboardManagerSwift: ede2a27b4e1ce053d03073b9c7fa439322f5e405
+  SCLAlertView: c2b916952520d96cf5e886a38053f1b8c3da502e
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: c467a75db6dfd086c5238eaa5121b3ddc2faad72
+
+COCOAPODS: 1.0.1
