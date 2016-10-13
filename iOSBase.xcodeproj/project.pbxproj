@@ -94,7 +94,7 @@
 		BD887A891CA57ADD00A24EA1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = UserInterface/BaseViewController.swift; sourceTree = "<group>"; };
 		BD887A9A1CA57C4100A24EA1 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		BD887AB21CA5A75000A24EA1 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+.swift"; path = "Utilities/UIColor+.swift"; sourceTree = "<group>"; };
-		BDE3DAD41CA5317B0070BAB4 /* Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE3DAD41CA5317B0070BAB4 /* iOSBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE3DAD71CA5317B0070BAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE3DADE1CA5317B0070BAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDE3DAE31CA5317B0070BAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
-		BD00B3F81CA56ED400E3DC21 /* Lab */ = {
+		BD00B3F81CA56ED400E3DC21 /* iOSBase */ = {
 			isa = PBXGroup;
 			children = (
 				72FCA1D11D2AC45200C73140 /* Models */,
@@ -235,7 +235,7 @@
 				BD00B3F91CA56EEC00E3DC21 /* ViewController.swift */,
 				BD00B3FA1CA56EEC00E3DC21 /* ViewController.xib */,
 			);
-			name = Lab;
+			name = iOSBase;
 			sourceTree = "<group>";
 		};
 		BD887A841CA57A0300A24EA1 /* LaunchScreen */ = {
@@ -273,7 +273,7 @@
 		BDE3DAD51CA5317B0070BAB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDE3DAD41CA5317B0070BAB4 /* Lab.app */,
+				BDE3DAD41CA5317B0070BAB4 /* iOSBase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 				72313AA21D29052A0056A8E4 /* Registry */,
 				72313A9F1D28FD680056A8E4 /* Extensions */,
 				BD887A921CA57C4100A24EA1 /* Helpers */,
-				BD00B3F81CA56ED400E3DC21 /* Lab */,
+				BD00B3F81CA56ED400E3DC21 /* iOSBase */,
 				BD887A841CA57A0300A24EA1 /* LaunchScreen */,
 				BD00B3EE1CA56AB800E3DC21 /* Libraries */,
 				BDE3DAD71CA5317B0070BAB4 /* AppDelegate.swift */,
@@ -317,9 +317,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDE3DAD31CA5317B0070BAB4 /* Lab */ = {
+		BDE3DAD31CA5317B0070BAB4 /* iOSBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDE3DAE61CA5317B0070BAB4 /* Build configuration list for PBXNativeTarget "Lab" */;
+			buildConfigurationList = BDE3DAE61CA5317B0070BAB4 /* Build configuration list for PBXNativeTarget "iOSBase" */;
 			buildPhases = (
 				BE3FCDCB7F3FFD9C4D2AC72B /* [CP] Check Pods Manifest.lock */,
 				BDE3DAD01CA5317B0070BAB4 /* Sources */,
@@ -332,9 +332,9 @@
 			);
 			dependencies = (
 			);
-			name = Lab;
+			name = iOSBase;
 			productName = iOSBase;
-			productReference = BDE3DAD41CA5317B0070BAB4 /* Lab.app */;
+			productReference = BDE3DAD41CA5317B0070BAB4 /* iOSBase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -353,7 +353,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDE3DACF1CA5317B0070BAB4 /* Build configuration list for PBXProject "Lab" */;
+			buildConfigurationList = BDE3DACF1CA5317B0070BAB4 /* Build configuration list for PBXProject "iOSBase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -366,7 +366,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDE3DAD31CA5317B0070BAB4 /* Lab */,
+				BDE3DAD31CA5317B0070BAB4 /* iOSBase */,
 			);
 		};
 /* End PBXProject section */
@@ -577,7 +577,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stack.Lab;
-				PRODUCT_NAME = Lab;
+				PRODUCT_NAME = iOSBase;
 				PROVISIONING_PROFILE = "fb2dd75b-d694-4e07-bc88-34f14f46d167";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSBase/SWRevealViewController/iOSBase-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -600,7 +600,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stack.Lab;
-				PRODUCT_NAME = Lab;
+				PRODUCT_NAME = iOSBase;
 				PROVISIONING_PROFILE = "fb2dd75b-d694-4e07-bc88-34f14f46d167";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSBase/SWRevealViewController/iOSBase-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -610,7 +610,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDE3DACF1CA5317B0070BAB4 /* Build configuration list for PBXProject "Lab" */ = {
+		BDE3DACF1CA5317B0070BAB4 /* Build configuration list for PBXProject "iOSBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDE3DAE41CA5317B0070BAB4 /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDE3DAE61CA5317B0070BAB4 /* Build configuration list for PBXNativeTarget "Lab" */ = {
+		BDE3DAE61CA5317B0070BAB4 /* Build configuration list for PBXNativeTarget "iOSBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDE3DAE71CA5317B0070BAB4 /* Debug */,
