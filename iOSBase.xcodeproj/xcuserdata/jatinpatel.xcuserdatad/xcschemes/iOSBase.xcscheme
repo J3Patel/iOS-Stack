@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDE3DAD31CA5317B0070BAB4"
-            BuildableName = "Lab.app"
-            BlueprintName = "Lab"
-            ReferencedContainer = "container:Lab.xcodeproj">
+            BuildableName = "iOSBase.app"
+            BlueprintName = "iOSBase"
+            ReferencedContainer = "container:iOSBase.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BDE3DAD31CA5317B0070BAB4"
-            BuildableName = "Lab.app"
-            BlueprintName = "Lab"
-            ReferencedContainer = "container:Lab.xcodeproj">
+            BuildableName = "iOSBase.app"
+            BlueprintName = "iOSBase"
+            ReferencedContainer = "container:iOSBase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
